@@ -7,6 +7,6 @@ int main()
     cout<<"enter the age :";
     cin >>age;
     getline(cin,name);
-    cout<<"hi "<<name<< " you are "<< age<< " years old ";
+    cout<<"hi  "<<name<< " your current  "<< age<< " years old ";
     return 0;
 }
