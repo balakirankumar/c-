@@ -5,40 +5,31 @@ string getdayname(int daynum){
     string dayname;
     switch(daynum)
     {
-        case 0 :{
+        case 0 
             dayname="sunday";
-            break;
-        }
-        case 1 :{
+            break; 
+        case 1 :
             dayname="monday";
             break;
-        }
-        case 2 :{
+        case 2 :
             dayname="tuesday";
             break;
-        }
-        case 3 :{
+        case 3 :
             dayname="wednesday";
             break;
-        }
-        case 4 :{
+        case 4 :
             dayname="thrusday";
             break;
-        }
-        case 5 :{
+        case 5 :
             dayname="friday";
             break;
-        }
-        case 6 :{
+        case 6 :
             dayname="saturday";
             break;
-        }
-        defaut :{
+        defaut :
             dayname="invalid number";
-            break;
-        }
-        return (dayname);
     }
+    return (dayname);
 }    
 int main()
 {
